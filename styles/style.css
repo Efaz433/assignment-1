@@ -191,6 +191,7 @@ td, th {
     padding: 15px;
 }
 select{
+    border-radius: 5px;
     background-color: rgb(198, 228, 214);
 }
 /*recrnt news*/
@@ -230,7 +231,8 @@ select{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 35px;
-    width: 200px;
+    width: 180px;
+    height: 105px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 25px;
     font-weight: 700;
@@ -240,7 +242,8 @@ select{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 35px;
-    width: 200px;
+    width: 180px;
+    height: 100px;
     background-color: rgb(198, 228, 214);
     color: rgba(14, 14, 14, 0.8);
     font-size: 25px;
@@ -263,4 +266,42 @@ select{
     width: 400px;
     padding: 20px 40px 20px 40px;
     text-align: center;
+}
+/*Subscribe Newsletter*/
+.last{
+    text-align: center;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+}
+.last-div{
+    display: flex;
+    justify-content: center;
+    gap: none;
+}
+.input-email{
+    border: none;
+    width: 300px;
+    border-radius: 8px 0px 0px 8px;
+    padding: 15px 30px;
+}
+.subs-btn{
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(0, 106, 80);
+    padding: 15px 30px;
+    color: white;
+
+}
+/*footer*/
+.foot-sec{
+    text-align: center;
+}
+.foot-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foot-img{
+    width: 15px;
+    height: 15px;
 }
