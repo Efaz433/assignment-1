@@ -290,6 +290,10 @@ select{
     background-color: rgb(0, 106, 80);
     padding: 15px 30px;
     color: white;
+}
+.subs-btn:hover{
+    background-color: red;
+    color: white;
 
 }
 /*footer*/
