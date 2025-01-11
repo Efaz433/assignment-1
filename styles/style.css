@@ -5,6 +5,10 @@
 .common-margin{
     margin: 0 9%;
 }
+.common-font-style{
+    color: rgba(14, 14, 14, 0.7);
+    letter-spacing: 0%;
+}
 
 
 /*header section*/
@@ -73,12 +77,109 @@ nav button:hover{
     color: rgba(14, 14, 14, 0.8);
     letter-spacing: 0%;
 }
-.pillar-card-p{
-    color: rgba(14, 14, 14, 0.5);
-    letter-spacing: 0%;
-}
 .pillar-card-img{
     width: 49.66px;
     height: 53.09px;
 }
 /*the vision of future*/
+.section-3{
+    margin-top: 50px;
+    letter-spacing: 0px;
+}
+.section-3-h{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.section-3-div{
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+}
+.section-3-card-1{
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.section-3-card-2{
+    background-color: rgb(198, 228, 214);
+    border-radius: 16px;
+    padding:32px ;
+}
+.section-3-card-3{
+    background-color: rgb(247, 235, 207);
+    border-radius: 16px;
+    padding:32px ;
+}
+.section-3-btn-1{
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background-color: rgb(84, 144, 245);
+    color: white;
+}
+.section-3-btn-1:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.section-3-btn-2{
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background-color: rgb(9, 161, 92);
+    color: white;
+}
+.section-3-btn-2:hover{ background-color: aqua;
+    color: white;
+
+}
+.section-3-btn-3{
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background-color: rgb(255, 194, 57);
+    color: white;
+}
+.section-3-btn-3:hover{background-color: aqua;
+    color: white;
+}
+/*quotation*/
+.quotation{
+    margin-top: 80px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    background-image: url(../assets/png-transparent-drawing-quotation-mark-computer-icons-quotation-angle-photography-monochrome.png);
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.quotation-heading{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 0%;
+    
+}
+
+/*your opinion matter*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 80px;
+    
+}
+thead{
+    background-color: rgb(198, 228, 214);
+    
+}
+td, th {
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    padding: 15px;
+}
+select{
+    background-color: rgb(198, 228, 214);
+}
+
+
+
+
