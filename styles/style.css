@@ -9,8 +9,23 @@
     color: rgba(14, 14, 14, 0.7);
     letter-spacing: 0%;
 }
+.common-top-margin{
+    margin-top: 80px;
+}
+/*btn for section 6 and 7*/ 
+.common-btn{
+    background-color: rgb(0, 106, 80);
+    border: none;
+    padding: 13px 26px;
+    border-radius:8px ;
+    color: white;
+    cursor: pointer;
 
-
+}
+.common-btn:hover{
+    background-color: red;
+    color: white;
+}
 /*header section*/
 /*nav desgin*/
 nav{
@@ -62,9 +77,8 @@ nav button:hover{
 }
 /*main style*/
 /*pillars of bangladesh 2.0*/
-.optional{
-    margin-top: 50px;
-}
+
+
 .pillar-card-paraent{
     display: flex;
     gap: 24px;
@@ -145,7 +159,7 @@ nav button:hover{
 }
 /*quotation*/
 .quotation{
-    margin-top: 80px;
+    
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 30px;
@@ -179,7 +193,74 @@ td, th {
 select{
     background-color: rgb(198, 228, 214);
 }
+/*recrnt news*/
+.news-headline{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0;
+}
+.news-1{
+    margin-top: 30px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.news-2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.satlelite-img{
+    width: 350px;
+    height: 250px;
+    border-radius: 24px;
+}
+/*donnation section*/
+.donnation{
+    text-align: center;
+}
+.btn-paraent{
+    display: flex;
+    justify-content: space-around;
+}
+.donnate-btn{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 35px;
+    width: 200px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.donnate-btn-2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 35px;
+    width: 200px;
+    background-color: rgb(198, 228, 214);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
-
-
+.donnate-btn:hover{
+    background-color: green;
+    color: red;
+}
+.donnate-btn-2:hover{
+    background-color: green;
+    color: red;
+}
+.donnate-text{
+    margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    width: 400px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+}
